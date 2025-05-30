@@ -20,7 +20,7 @@ You can also run the `main.py` file as a script.
 
 ## Database
 The system has a DB with 3 tables for storing events, users, and user registrations to events.
-The latter is already implemented.
+The latter is already implemented. You have to implement the ORM classes `User` and `Event` (NB: you must use exactly these names, otherwise it won't work!).
 
 An event must be uniquely identified by its ID, which has to be automatically assigned by the system.
 A user must be uniquely identified by their username, which will be set during the creation.
